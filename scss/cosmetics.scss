@@ -1,0 +1,113 @@
+.cosmetics-container{
+    width: 90rem ;
+    height: 45rem;
+    display: flex;
+    flex-direction: row;
+    .cosmetics-pict{
+        width: 50%;
+        height: 100%;
+        background-image: url(/img/cosmeticsbg.png);
+    }
+    .cosmetics-info{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        .cream-img{
+            margin: 0;
+            padding: 0;
+            margin-top: 14.9375rem;
+            margin-left: 2.5rem;
+        }
+        .creame-info{
+            display: flex;
+            flex-direction: column;
+            a{
+                text-decoration: none;
+                font-family: 'Roboto',sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                text-align: center;
+                color: #333333;
+                text-decoration: underline;
+                margin-top: 2.5rem;
+                margin-left: 22.9375rem;
+            }
+            .title{
+                font-family: 'Roboto',sans-serif;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 40px;
+                color: #333333;
+                margin: 0;
+                padding: 0;
+                margin-top: 10.5rem;
+                margin-left: 2.5rem;
+            }
+            .subtitle{
+                font-family: 'Roboto',sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #333333;
+                margin: 0;
+                padding: 0;
+                margin-top: 1.25rem;
+                margin-left: 2.5rem;
+            }
+            .text{
+                font-family: 'Roboto',sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+                color: #333333;
+                margin: 0;
+                padding: 0;
+                margin-top: 1.3125rem;
+                margin-left: 2.5rem;
+            }
+            .price-btn{
+                padding: 0;
+                border: none;
+                font-family: inherit;
+                color: inherit;
+                background-color: transparent;
+                width: 24.75rem;
+                height: 3.75rem;
+                background: #333333;
+                border: 1px solid #333333;
+                box-sizing: border-box;
+                border-radius: 0px;
+                font-family: 'Roboto',sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 14px;
+                text-align: center;
+                color: #F6F5E8;
+                margin-top: 2.875rem;
+                margin-left: 2.5rem;
+            }
+            .move-btn{
+                padding: 0;
+                border: none;
+                font-family: inherit;
+                color: inherit;
+                background-color: transparent;
+                border: 1px solid rgba(51, 51, 51, 0.2);
+                box-sizing: border-box;
+                border-radius: 0px;
+                width: 24.75rem;
+                height: 3.75rem;
+                font-family: 'Roboto',sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                color: #333333;
+                margin-top: 1.25rem;
+                margin-left: 2.5rem;
+            }
+        }
+    }
+}

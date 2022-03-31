@@ -1,0 +1,268 @@
+body {
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header {
+  width: 90rem;
+}
+
+.header .container {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.header .container .brown-line {
+  height: 2.5625rem;
+  width: 100%;
+  background-color: #a6672b;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+}
+
+.header .container .brown-line span {
+  text-align: center;
+  color: #fffef2;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.header .container .brown-line span:nth-child(2) {
+  margin-left: .625rem;
+}
+
+.header .container .black-line {
+  height: 2.5625rem;
+  width: 100%;
+  background-color: #252525;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+}
+
+.header .container .black-line span {
+  text-align: center;
+  color: #fffef2;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.header .container .header-bg {
+  width: 90rem;
+  height: 32.5rem;
+  background-image: url("headerpict.afde1624.png");
+}
+
+.header .container .header-bg .nav {
+  width: 100%;
+  height: 80px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.header .container .header-bg .nav img {
+  margin-left: 3.125rem;
+}
+
+.header .container .header-bg .nav .nav-menu a {
+  color: #fffef2;
+  padding: .7813rem;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.header .container .header-bg .nav .nav-menu a:nth-child(5) {
+  margin-left: 46.875rem;
+}
+
+.header .container .header-bg .header-information {
+  width: 100%;
+}
+
+.header .container .header-bg .header-information .header-title {
+  width: 25rem;
+  margin: 8.375rem 0 0 15rem;
+  padding: 0;
+}
+
+.header .container .header-bg .header-information .header-title .title {
+  color: #fffef2;
+  font-family: Roboto, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.header .container .header-bg .header-information .header-title .text {
+  color: #fffef2;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.cosmetics-container {
+  width: 90rem;
+  height: 45rem;
+  flex-direction: row;
+  display: flex;
+}
+
+.cosmetics-container .cosmetics-pict {
+  width: 50%;
+  height: 100%;
+  background-image: url("cosmeticsbg.f187a841.png");
+}
+
+.cosmetics-container .cosmetics-info {
+  width: 50%;
+  height: 100%;
+  flex-direction: row;
+  display: flex;
+}
+
+.cosmetics-container .cosmetics-info .cream-img {
+  margin: 14.9375rem 0 0 2.5rem;
+  padding: 0;
+}
+
+.cosmetics-container .cosmetics-info .creame-info {
+  flex-direction: column;
+  display: flex;
+}
+
+.cosmetics-container .cosmetics-info .creame-info a {
+  text-align: center;
+  color: #333;
+  margin-top: 2.5rem;
+  margin-left: 22.9375rem;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-decoration: underline;
+}
+
+.cosmetics-container .cosmetics-info .creame-info .title {
+  color: #333;
+  margin: 10.5rem 0 0 2.5rem;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.cosmetics-container .cosmetics-info .creame-info .subtitle {
+  color: #333;
+  margin: 1.25rem 0 0 2.5rem;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.cosmetics-container .cosmetics-info .creame-info .text {
+  color: #333;
+  margin: 1.3125rem 0 0 2.5rem;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.cosmetics-container .cosmetics-info .creame-info .price-btn {
+  color: inherit;
+  width: 24.75rem;
+  height: 3.75rem;
+  box-sizing: border-box;
+  text-align: center;
+  color: #f6f5e8;
+  background: #333;
+  border: 1px solid #333;
+  border-radius: 0;
+  margin-top: 2.875rem;
+  margin-left: 2.5rem;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.cosmetics-container .cosmetics-info .creame-info .move-btn {
+  color: inherit;
+  box-sizing: border-box;
+  width: 24.75rem;
+  height: 3.75rem;
+  text-align: center;
+  color: #333;
+  background-color: #0000;
+  border: 1px solid #3333;
+  border-radius: 0;
+  margin-top: 1.25rem;
+  margin-left: 2.5rem;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.products-container {
+  width: 75rem;
+  flex-direction: row;
+  justify-content: center;
+  margin: 6.25rem auto 0;
+  padding: 0;
+  display: flex;
+}
+
+.products-container .card {
+  height: 33.5rem;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.products-container .card .title {
+  text-align: center;
+  color: #333;
+  margin: .5625rem 0 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.products-container .card .subtitle {
+  text-align: center;
+  color: #333;
+  margin: .625rem 0 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+/*# sourceMappingURL=index.3b03301b.css.map */
